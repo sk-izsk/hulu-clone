@@ -3,13 +3,6 @@ export interface CustomTheme {
     primaryColor: string;
     secondaryColor: string;
     thirdColor: string;
-    darkerThirdColor: string;
-    darkerPrimaryColor: string;
-    lighterPrimaryColor: string;
-    white: string;
-    blue: string;
-    grayishBlue: string;
-    red: string;
   };
   fontProperties: {
     textFontSize: number;
@@ -21,16 +14,9 @@ export interface CustomTheme {
 
 const theme: CustomTheme = {
   colors: {
-    primaryColor: '#353353',
-    secondaryColor: '#FFD15C',
-    thirdColor: '#FF4C60',
-    darkerThirdColor: '	 #ff334b',
-    darkerPrimaryColor: '#302f4e',
-    lighterPrimaryColor: '#8B88B1',
-    blue: 'rgb(108, 108, 229)',
-    white: '#fff',
-    grayishBlue: '#8B88B1',
-    red: '#ff0000',
+    primaryColor: `linear-gradient(90deg,#051421,#042727)`,
+    secondaryColor: '#d7d5d5',
+    thirdColor: '##ffffff',
   },
   fontProperties: {
     textFontSize: 16,
