@@ -15,6 +15,7 @@ export interface Endpoints {
 }
 
 const baseURL: string = 'https://api.themoviedb.org/3';
+const imageURL: string = 'https://image.tmdb.org/t/p/w500';
 
 const endpoints: Endpoints = {
   trending: `/trending/all/week?api_key=${apiKey}&language=en-US`,
@@ -30,4 +31,4 @@ const endpoints: Endpoints = {
   tv: `/discover/movie?api_key=${apiKey}&with_genres=10070`,
 };
 
-export { endpoints, baseURL };
+export { endpoints, baseURL, imageURL };

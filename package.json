@@ -6,9 +6,11 @@
     "axios": "^0.20.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-flip-move": "^3.0.4",
     "react-icons": "^3.11.0",
     "react-jss": "^10.4.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "react-text-truncate": "^0.16.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -54,7 +56,9 @@
     "@types/node": "^14.11.1",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-flip-move": "^2.9.12",
     "@types/react-jss": "^10.0.0",
+    "@types/react-text-truncate": "^0.14.0",
     "husky": "^4.3.0",
     "lint": "^0.7.0",
     "prettier": "^2.1.2",

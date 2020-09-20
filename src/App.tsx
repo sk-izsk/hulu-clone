@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { createUseStyles } from 'react-jss';
+import { endpoints } from './api';
 import { Header, Nav } from './components';
 import { Results } from './screens';
 import { CustomTheme } from './theme/theme';
@@ -14,7 +15,6 @@ const useStyles = createUseStyles((theme: CustomTheme) => ({
       background: theme.colors.primaryColor,
       fontFamily: theme.fontProperties.fontFamily,
       scrollBehavior: 'smooth',
-      overflow: 'hidden',
     },
   },
   app: {
@@ -23,13 +23,14 @@ const useStyles = createUseStyles((theme: CustomTheme) => ({
 }));
 
 const App: React.FC<AppProps> = () => {
+  const [selectedOption, setSelectedOption] = useState<string>(endpoints.trending);
   useStyles();
   const classes = useStyles();
   return (
     <div className={classes.app}>
       <Header />
-      <Nav />
-      <Results />
+      <Nav setSelectedOption={setSelectedOption} />
+      <Results selectedOption={selectedOption} />
     </div>
   );
 };

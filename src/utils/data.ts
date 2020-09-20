@@ -36,17 +36,56 @@ const headerIcons: HeaderIcon[] = [
   },
 ];
 
-const navBarData: string[] = [
-  'Trending',
-  'Top Rated',
-  'Action',
-  'Comedy',
-  'Horror',
-  'Romance',
-  'Mystery',
-  'Sci-fi',
-  'Western',
-  'TV Movie',
+export interface NavBarData {
+  name: string;
+  id?: string;
+}
+
+const navBarData: NavBarData[] = [
+  {
+    name: 'Trending',
+    id: 'trending',
+  },
+  {
+    name: 'Top Rated',
+    id: 'topRated',
+  },
+  {
+    name: 'Action',
+    id: 'actionMovies',
+  },
+  {
+    name: 'Comedy',
+    id: 'comedyMovies',
+  },
+  {
+    name: 'Horror',
+    id: 'horrorMovies',
+  },
+  {
+    name: 'Romance',
+    id: 'romanceMovies',
+  },
+  {
+    name: 'Mystery',
+    id: 'mystery',
+  },
+  {
+    name: 'Sci-fi',
+    id: 'sciFi',
+  },
+  {
+    name: 'Western',
+    id: 'western',
+  },
+  {
+    name: 'Animation',
+    id: 'animation',
+  },
+  // {
+  //   name: 'TV Movie',
+  //   id: 'tv',
+  // },
 ];
 
 export { headerIcons, navBarData };

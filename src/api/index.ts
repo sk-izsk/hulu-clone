@@ -1,3 +1,3 @@
 export { apiKey } from './apiKey';
-export { baseURL, endpoints } from './endpoints';
-export { getData } from './fetch';
+export { baseURL, endpoints, imageURL } from './endpoints';
+export { fetchData, getData } from './fetch';
