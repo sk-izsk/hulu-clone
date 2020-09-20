@@ -1,9 +1,13 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss';
+import { endpoints } from '../../api';
 import { CustomTheme } from '../../theme/theme';
 import { navBarData } from '../../utils';
+import { NavBarData } from '../../utils/data';
 
-export interface NavProps {}
+export interface NavProps {
+  setSelectedOption: any;
+}
 
 const useStyles = createUseStyles((theme: CustomTheme) => ({
   nav: {
@@ -27,13 +31,21 @@ const useStyles = createUseStyles((theme: CustomTheme) => ({
   },
 }));
 
-const Nav: React.FC<NavProps> = () => {
+const Nav: React.FC<NavProps> = ({ setSelectedOption }) => {
   const classes = useStyles();
   return (
     <div className={classes.nav}>
-      {navBarData.map((navData: string) => (
-        <h2 className={classes.navItem} key={navData}>
-          {navData}
+      {navBarData.map((navData: NavBarData) => (
+        <h2
+          className={classes.navItem}
+          onClick={(e: React.MouseEvent) => {
+            e.preventDefault();
+            //@ts-ignore
+            setSelectedOption(endpoints[`${navData.id}`]);
+          }}
+          key={navData.name}
+        >
+          {navData.name}
         </h2>
       ))}
     </div>

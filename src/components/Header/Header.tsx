@@ -17,6 +17,7 @@ const useStyles = createUseStyles((theme: CustomTheme) => ({
     position: 'sticky',
     top: 0,
     zIndex: 100,
+    background: theme.colors.primaryColor,
   },
   headerIcons: {
     display: 'flex',
