@@ -1,11 +1,12 @@
 import { render } from '@testing-library/react';
 import React from 'react';
-import { App } from './App';
-import { AppProvider } from './AppProvider';
-test('App renders correctly', () => {
+import { AppProvider } from '../../AppProvider';
+import { Header } from './Header';
+
+test('Header renders correctly', () => {
   const { asFragment } = render(
     <AppProvider>
-      <App />
+      <Header />
     </AppProvider>,
   );
   expect(asFragment()).toMatchSnapshot();

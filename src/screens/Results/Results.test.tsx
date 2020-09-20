@@ -1,11 +1,12 @@
 import { render } from '@testing-library/react';
 import React from 'react';
-import { App } from './App';
-import { AppProvider } from './AppProvider';
-test('App renders correctly', () => {
+import { AppProvider } from '../../AppProvider';
+import { Results } from './Results';
+
+test('Results renders correctly', () => {
   const { asFragment } = render(
     <AppProvider>
-      <App />
+      <Results selectedOption='trending' />
     </AppProvider>,
   );
   expect(asFragment()).toMatchSnapshot();

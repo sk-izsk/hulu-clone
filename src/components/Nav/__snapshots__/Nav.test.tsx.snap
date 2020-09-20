@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="nav-0-2-1"
+  >
+    <h2
+      class="navItem-0-2-2"
+    >
+      Trending
+    </h2>
+    <h2
+      class="navItem-0-2-2"
+    >
+      Top Rated
+    </h2>
+    <h2
+      class="navItem-0-2-2"
+    >
+      Action
+    </h2>
+    <h2
+      class="navItem-0-2-2"
+    >
+      Comedy
+    </h2>
+    <h2
+      class="navItem-0-2-2"
+    >
+      Horror
+    </h2>
+    <h2
+      class="navItem-0-2-2"
+    >
+      Romance
+    </h2>
+    <h2
+      class="navItem-0-2-2"
+    >
+      Mystery
+    </h2>
+    <h2
+      class="navItem-0-2-2"
+    >
+      Sci-fi
+    </h2>
+    <h2
+      class="navItem-0-2-2"
+    >
+      Western
+    </h2>
+    <h2
+      class="navItem-0-2-2"
+    >
+      Animation
+    </h2>
+  </div>
+</DocumentFragment>
+`;

@@ -8,7 +8,6 @@ const getData = axios.create({
 const fetchData = async (endpoint: string) => {
   try {
     const result = await getData.get(endpoint);
-    console.log('this is result', result);
     return result;
   } catch (err) {
     console.warn(err);
