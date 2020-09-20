@@ -1,1 +1,1 @@
-export { headerIcons } from './data';
+export { headerIcons, navBarData } from './data';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss';
-import { Header } from './components';
+import { Header, Nav } from './components';
 import { CustomTheme } from './theme/theme';
 
 export interface AppProps {}
@@ -13,6 +13,7 @@ const useStyles = createUseStyles((theme: CustomTheme) => ({
       background: theme.colors.primaryColor,
       fontFamily: theme.fontProperties.fontFamily,
       scrollBehavior: 'smooth',
+      overflow: 'hidden',
     },
   },
   app: {
@@ -26,6 +27,7 @@ const App: React.FC<AppProps> = () => {
   return (
     <div className={classes.app}>
       <Header />
+      <Nav />
     </div>
   );
 };

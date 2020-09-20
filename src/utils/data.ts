@@ -36,4 +36,17 @@ const headerIcons: HeaderIcon[] = [
   },
 ];
 
-export { headerIcons };
+const navBarData: string[] = [
+  'Trending',
+  'Top Rated',
+  'Action',
+  'Comedy',
+  'Horror',
+  'Romance',
+  'Mystery',
+  'Sci-fi',
+  'Western',
+  'TV Movie',
+];
+
+export { headerIcons, navBarData };
