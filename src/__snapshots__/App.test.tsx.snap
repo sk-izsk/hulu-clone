@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="app-0-2-1"
+  >
+    <div
+      class="header-0-2-2"
+    >
+      <div
+        class="headerIcons-0-2-3"
+      >
+        <div
+          class="headerIcon-0-2-7"
+        >
+          <svg
+            class="icon-0-2-5"
+            fill="currentColor"
+            height="32"
+            size="32"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M946.5 505L534.6 93.4a31.93 31.93 0 0 0-45.2 0L77.5 505c-12 12-18.8 28.3-18.8 45.3 0 35.3 28.7 64 64 64h43.4V908c0 17.7 14.3 32 32 32H448V716h112v224h265.9c17.7 0 32-14.3 32-32V614.3h43.4c17 0 33.3-6.7 45.3-18.8 24.9-25 24.9-65.5-.1-90.5z"
+            />
+          </svg>
+        </div>
+        <div
+          class="headerIcon-0-2-7"
+        >
+          <svg
+            class="icon-0-2-5"
+            fill="currentColor"
+            height="32"
+            size="32"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M160 48v224h64v192l128-256h-64l64-160H160z"
+            />
+          </svg>
+        </div>
+        <div
+          class="headerIcon-0-2-7"
+        >
+          <svg
+            class="icon-0-2-5"
+            fill="currentColor"
+            height="32"
+            size="32"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21 6h-7.59l3.29-3.29L16 2l-4 4-4-4-.71.71L10.59 6H3c-1.1 0-2 .89-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.11-.9-2-2-2zm0 14H3V8h18v12zM9 10v8l7-4z"
+            />
+          </svg>
+        </div>
+        <div
+          class="headerIcon-0-2-7"
+        >
+          <svg
+            class="icon-0-2-5"
+            fill="currentColor"
+            height="32"
+            size="32"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8 12.5v-9l6 4.5-6 4.5z"
+            />
+          </svg>
+        </div>
+        <div
+          class="headerIcon-0-2-7"
+        >
+          <svg
+            class="icon-0-2-5"
+            fill="currentColor"
+            height="32"
+            size="32"
+            stroke="currentColor"
+            stroke-width="0"
+            version="1.1"
+            viewBox="0 0 16 16"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.504 13.616l-3.79-3.223c-0.392-0.353-0.811-0.514-1.149-0.499 0.895-1.048 1.435-2.407 1.435-3.893 0-3.314-2.686-6-6-6s-6 2.686-6 6 2.686 6 6 6c1.486 0 2.845-0.54 3.893-1.435-0.016 0.338 0.146 0.757 0.499 1.149l3.223 3.79c0.552 0.613 1.453 0.665 2.003 0.115s0.498-1.452-0.115-2.003zM6 10c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4z"
+            />
+          </svg>
+        </div>
+        <div
+          class="headerIcon-0-2-7"
+        >
+          <svg
+            class="icon-0-2-5"
+            fill="currentColor"
+            height="32"
+            size="32"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"
+            />
+          </svg>
+        </div>
+      </div>
+      <img
+        alt="hulu-icon"
+        class="huluLogo-0-2-4"
+        src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png"
+      />
+    </div>
+    <div
+      class="nav-0-2-8"
+    >
+      <h2
+        class="navItem-0-2-9"
+      >
+        Trending
+      </h2>
+      <h2
+        class="navItem-0-2-9"
+      >
+        Top Rated
+      </h2>
+      <h2
+        class="navItem-0-2-9"
+      >
+        Action
+      </h2>
+      <h2
+        class="navItem-0-2-9"
+      >
+        Comedy
+      </h2>
+      <h2
+        class="navItem-0-2-9"
+      >
+        Horror
+      </h2>
+      <h2
+        class="navItem-0-2-9"
+      >
+        Romance
+      </h2>
+      <h2
+        class="navItem-0-2-9"
+      >
+        Mystery
+      </h2>
+      <h2
+        class="navItem-0-2-9"
+      >
+        Sci-fi
+      </h2>
+      <h2
+        class="navItem-0-2-9"
+      >
+        Western
+      </h2>
+      <h2
+        class="navItem-0-2-9"
+      >
+        Animation
+      </h2>
+    </div>
+    <div
+      class="results-0-2-10"
+    >
+      <div
+        class="results-0-2-10"
+        style="position: relative;"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -6,7 +6,7 @@ import { navBarData } from '../../utils';
 import { NavBarData } from '../../utils/data';
 
 export interface NavProps {
-  setSelectedOption: any;
+  setSelectedOption?: any;
 }
 
 const useStyles = createUseStyles((theme: CustomTheme) => ({

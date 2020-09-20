@@ -20,7 +20,6 @@ const useStyles = createUseStyles((theme: CustomTheme) => ({
 const Results: React.FC<ResultsProps> = ({ selectedOption }) => {
   const classes = useStyles();
   const [movies, setMovies] = useState([]);
-  console.log('this is movies', movies);
   useEffect(() => {
     fetchData(selectedOption).then((req) => {
       setMovies(req?.data.results);
