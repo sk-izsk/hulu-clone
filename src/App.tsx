@@ -1,6 +1,7 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss';
 import { Header, Nav } from './components';
+import { Results } from './screens';
 import { CustomTheme } from './theme/theme';
 
 export interface AppProps {}
@@ -28,6 +29,7 @@ const App: React.FC<AppProps> = () => {
     <div className={classes.app}>
       <Header />
       <Nav />
+      <Results />
     </div>
   );
 };
