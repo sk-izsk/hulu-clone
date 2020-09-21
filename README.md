@@ -62,7 +62,7 @@ The Frontend of this build mainly on React along with some other important techn
 
 The backend of this project (API) used from technology mention below
 
-- [Firebase(deploy)](https://firebase.google.com)
+- [Netlify(deploy)](https://www.netlify.com)
 - [The Movie DB](https://www.themoviedb.org)
 
 <!-- GETTING STARTED -->
