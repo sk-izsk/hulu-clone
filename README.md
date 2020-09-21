@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/sk-izsk/airbnb-clone">
+  <a href="https://github.com/sk-izsk/hulu-clone">
     <img src="public/hulu_logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
@@ -12,7 +12,7 @@
   <p align="center">
     Built in React with love and passion
     <br />
-    <a href="https://airbnb-clone-496ef.web.app"><strong>Explore the website »</strong></a>
+    <a href="https://izsk-hulu-clone.netlify.app"><strong>Explore the website »</strong></a>
     <br />
     <br />
   </p>
@@ -36,7 +36,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://airbnb-clone-496ef.web.app)
+[![Product Name Screen Shot][product-screenshot]](https://izsk-hulu-clone.netlify.app)
 
 I love coding specially on javascript/typescript. This is my small effort to show my skill and knowledge so far. As headline suggest I create this hulu clone just out of my passion and 💕 React.
 
