@@ -1,3 +1,3 @@
-const apiKey = process.env.NODE_ENV === 'development' ? process.env.REACT_APP_MOVIE_API_KEY : 'undefined';
+const apiKey = process.env.REACT_APP_MOVIE_API_KEY;
 
 export { apiKey };
